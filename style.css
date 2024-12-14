@@ -1,0 +1,48 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.input-wrap {
+margin-top: 20px;
+}
+
+#todo-input {
+height: 100px;
+width: 600px;
+font-size: 4rem;
+}
+
+#add-button {
+    font-size: 4rem;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#todo-list li{ 
+    font-size: 5rem;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.btn-delete {
+    font-size: 3.5rem;
+    padding: 10px;
+    margin-left: 20px;
+}
